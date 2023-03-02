@@ -1,0 +1,69 @@
+Ansys Lumerical 2020 R2 FDTD Solver Version 8.24.2387 (Windows 64bit)
+ expires (month/day/year): 12/31/2035
+using config file: Ansys Licensing set with ANSYSLMD_LICENSE_FILE
+license host: 
+current time: Thu Mar  2 19:47:35 2023
+Running on host: Leo
+host available memory (GB): 18.905985
+All processes are communicating and ready to proceed to simulation...
+Running fsp file: C:\Program Files\Lumerical\v202\bin\fdtd-engine-msmpi.exe -t 1 -remote C:/Users/Leo/Documents/Facul/Capacitação/GitHub/Edge-Coupler/CML/Exponential.fsp
+Starting meshing
+Simulation size in gridpoints: 1 x 49 x 47
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.046875 seconds of CPU time
+Starting meshing
+Simulation size in gridpoints: 1 x 49 x 47
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.078125 seconds of CPU time
+Starting meshing
+Simulation size in gridpoints: 1 x 49 x 47
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.0625 seconds of CPU time
+number of processors is 12
+processors are distributed as: 12x1x1
+Running 3D Simulation
+Starting meshing
+Simulation size in gridpoints: 396 x 56 x 47
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 1.375 seconds of CPU time
+0 0
+Starting meshing
+Simulation size in gridpoints: 396 x 56 x 47
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 1.4375 seconds of CPU time
+0 0
+Starting meshing
+Simulation size in gridpoints: 396 x 56 x 47
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 1.25 seconds of CPU time
+0 0
+finished material properties
+Meshing Time: 3.26261 seconds, Init Electrical Material Time: 0.115034 seconds, Init Magnetic Material Time: 0.002013
+Using selected optimization level: 2
+Selecting 3d kernel for splitFieldDirection=0 and optLevel=2
+-----------------------------------------
+Beginning initialization of 3D Simulation
+Starting to add sources to simulation
+Adding 3D Mode source propagating in X
+Starting to add boundary conditions to simulation
+Adding 3D PML BC
+Adding 3D Parallel BC
+Adding 3D Anti-Symmetric BC
+Adding 3D PML BC
+Adding 3D Symmetric BC
+Adding 3D Symmetric BC
+Starting to add monitors to Simulation
+Adding analysis monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Finished initialization of 3D Simulation
+-----------------------------------------
+All processes are communicating and ready to proceed to simulation...
+Starting 61139 total iterations
+0.0523402% complete. Max time remaining: 1 hr, 30 mins, 54 secs. Auto Shutoff: 1
