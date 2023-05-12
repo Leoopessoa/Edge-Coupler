@@ -1,0 +1,152 @@
+.subckt SWGCTE_WGNPLUS_450_600_200k ele_h1+ ele_g1- opt_1 opt_2 ele_h2+ ele_g2- wg_length=0.0002 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt SWGOTE_WGNPLUS_380_600_200k ele_h1+ ele_g1- opt_1 opt_2 ele_h2+ ele_g2- wg_length=0.0002 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt MZMCTE_TWLAAT_450_1500 opt_1 opt_2 ele_h1+ ele_h1- ele_h2+ ele_h2- ele_an_top ele_cat_top ele_an_bottom ele_cat_bottom library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt MZMCTE_TWLAAT_450_2500 opt_1 opt_2 ele_h1+ ele_h1- ele_h2+ ele_h2- ele_an_top ele_cat_top ele_an_bottom ele_cat_bottom library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt MZMCTE_TWLABT_450_1500 opt_1 opt_2 ele_h1+ ele_h1- ele_h2+ ele_h2- ele_an_top ele_cat_top ele_an_bottom ele_cat_bottom library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt MZMCTE_TWLABT_450_2500 opt_1 opt_2 ele_h1+ ele_h1- ele_h2+ ele_h2- ele_an_top ele_cat_top ele_an_bottom ele_cat_bottom library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt MZMOTE_TWLAAT_380_1500 opt_1 opt_2 ele_h1+ ele_h1- ele_h2+ ele_h2- ele_an_top ele_cat_top ele_an_bottom ele_cat_bottom library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt MZMOTE_TWLAAT_380_2500 opt_1 opt_2 ele_h1+ ele_h1- ele_h2+ ele_h2- ele_an_top ele_cat_top ele_an_bottom ele_cat_bottom library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt MZMOTE_TWLABT_380_1500 opt_1 opt_2 ele_h1+ ele_h1- ele_h2+ ele_h2- ele_an_top ele_cat_top ele_an_bottom ele_cat_bottom library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt MZMOTE_TWLABT_380_2500 opt_1 opt_2 ele_h1+ ele_h1- ele_h2+ ele_h2- ele_an_top ele_cat_top ele_an_bottom ele_cat_bottom library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt RWGCTE_FC_650 opt_1 opt_2 wg_length=1e-05 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt RWGCTE_SK_450 opt_1 opt_2 wg_length=1e-05 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt RWGOTE_FC_580 opt_1 opt_2 wg_length=1e-05 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt RWGOTE_SK_380 opt_1 opt_2 wg_length=1e-05 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt SWGCTE_WG_450 opt_1 opt_2 wg_length=1e-05 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt SWGOTE_WG_380 opt_1 opt_2 wg_length=1e-05 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt GPDCTE_GSLPINCFCWT_600_40000_450 ele_cat ele_an opt_1 opt_2 thermal_noise=0 enable_shot_noise=0 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt GPDCTE_SLPINCFCT_400_20800_600 ele_cat ele_an opt_1 opt_2 thermal_noise=0 enable_shot_noise=0 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt GPDCTE_SVPINCFCT_1000_15400_600 ele_cat ele_an opt_1 opt_2 thermal_noise=0 enable_shot_noise=0 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt GPDCTE_SVPINCFCWT_2000_15200_600 ele_cat ele_an opt_1 opt_2 thermal_noise=0 enable_shot_noise=0 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt GPDCTE_SVPINDFCWT_2000_13700_900 ele_cat ele_an opt_1 opt_2 thermal_noise=0 enable_shot_noise=0 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt GPDOTE_GSLPINCFCWT_600_40000_450 ele_cat ele_an opt_1 opt_2 thermal_noise=0 enable_shot_noise=0 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt GPDOTE_SLPINCFCT_400_20800_600 ele_cat ele_an opt_1 opt_2 thermal_noise=0 enable_shot_noise=0 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt GPDOTE_SVPINCFCT_1000_15400_600 ele_cat ele_an opt_1 opt_2 thermal_noise=0 enable_shot_noise=0 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt GPDOTE_SVPINCFCWT_2000_15200_600 ele_cat ele_an opt_1 opt_2 thermal_noise=0 enable_shot_noise=0 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt GPDOTE_SVPINDFCWT_2000_13700_900 ele_cat ele_an opt_1 opt_2 thermal_noise=0 enable_shot_noise=0 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt GPDCTE_GSLPINCFCWT_500_81600_350 ele_cat ele_an opt_1 opt_2 thermal_noise=0 enable_shot_noise=0 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt EAMCTE_GSLPINCFCWT_600_40000_450 ele_cat ele_an opt_1 opt_2 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt PSDCTE_SKPNLA_500 ele_an ele_cat opt_1 opt_2 wg_length=0.0005 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt PSDOTE_SKPNLA_500 ele_an ele_cat opt_1 opt_2 wg_length=0.0005 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt M12CTE_FC_5000_25400 opt_1 opt_2 opt_3 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt M12OTE_FC_4500_25600 opt_1 opt_2 opt_3 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt M22CTE_FC_5000_99800 opt_1 opt_2 opt_3 opt_4 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt M22OTE_FC_4500_102400 opt_1 opt_2 opt_3 opt_4 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt FECC_WG_SX_150 opt_1 opt_2 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt FECO_WG_SX_150 opt_1 opt_2 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt TRACTE_WGFC_450_650 opt_1 opt_2 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt TRACTE_WGSK_450_450 opt_1 opt_2 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt TRAOTE_WGFC_380_580 opt_1 opt_2 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt TRAOTE_WGSK_380_380 opt_1 opt_2 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt XCTE_FCWG_764_2080 opt_1 opt_2 opt_3 opt_4 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt XOTE_FCWG_647_1775 opt_1 opt_2 opt_3 opt_4 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt FGCCTE_FC1DC_625_313 opt_1 opt_2 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt FGCCTE_FCWFC1DC_630_378 opt_1 opt_2 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt FGCOTE_FC1DC_489_245 opt_1 opt_2 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt FGCOTE_FCWFC1DC_500_325 opt_1 opt_2 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt FGCCTM_FC1DC_984_492 opt_1 opt_2 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt FGCOTM_FC1DC_720_396 opt_1 opt_2 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt DCCTE_WG_450_150_5 opt_1 opt_2 opt_3 opt_4 coupling_length=6e-06 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt RMCTE_SKPNLA_5000_500_160 ele_cat ele_an ele_th_1 ele_th_2 opt_1 opt_2 library="Design kits/imec_isipp50g_v2.3.0"
+.ends
+
+.subckt RMOTE_SKPNLA_5000_450_140 ele_cat ele_an ele_th_1 ele_th_2 opt_1 opt_2 library="Design kits/imec_isipp50g_v2.3.0"
+.ends

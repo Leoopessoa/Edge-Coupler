@@ -1,0 +1,15 @@
+simulator lang=spectre
+library imec_isipp50g_v2.3.0
+
+section nominal
+endsection nominal
+
+section statistical
+endsection statistical
+
+section fast
+endsection fast
+
+section slow
+endsection slow
+
